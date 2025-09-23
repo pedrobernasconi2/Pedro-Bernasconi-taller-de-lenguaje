@@ -6,7 +6,7 @@ Debido a una confusión de enunciado, con unos compañeros, pensamos que el trab
 Agrego a continuación mi nombre, apellido, legajo y enunciados extra que realicé:
 
 Nombre y Apellido: Pedro Bernasconi
-Legajo: 17992/7
+Legajo: 17851/4
 Ejercicios extra realizados:
 7) Equipo más constante
 Determinar qué equipo tuvo la menor variación entre sus puntajes de ronda (diferencia entre su puntaje máximo y su puntaje mínimo). Mostrar el equipo y el valor de esa diferencia.
