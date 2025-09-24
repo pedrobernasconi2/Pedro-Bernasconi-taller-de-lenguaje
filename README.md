@@ -17,7 +17,7 @@ Promedio innovación: X
 Promedio presentación: Y
 
 ESTRUCTURA DEL PROYECTO
-Actividad-1-Taller-de-Lenguajes-Joaquin-Erbity/
+Actividad-1-Taller-de-Lenguajes-Pedro-Bernasconi/
 ├── src/
 │   ├── __init__.py
 │   ├── acumular.py
