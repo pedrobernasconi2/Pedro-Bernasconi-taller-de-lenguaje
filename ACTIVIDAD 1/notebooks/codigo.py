@@ -2,6 +2,8 @@ import pprint
 from src.evaluacion import mejor_equipo_ronda
 from src.acumulados import inicializar_acumulados, actualizar_acumulados
 from src.resultados import mostrar_tabla
+from src.ejerciciosextra import equipo_mas_constante, promedios_innovacion_presentacion
+
 
 
 #----rondas resultados--------:
@@ -61,3 +63,10 @@ for ronda in evaluaciones:
     mostrar_tabla(acumulados, nro_Ronda, mejor)
     nro_Ronda= nro_Ronda + 1
 
+# Ejercicios extra (hay que recorrer evaluaciones nuevamente ya que antes dividiamos por ronda)
+equipo_constante, diferencia = equipo_mas_constante(evaluaciones)
+print(f"Equipo más constante: {equipo_constante} (Diferencia: {diferencia})")
+
+promedio_innovacion, promedio_presentacion = promedios_innovacion_presentacion(evaluaciones)
+print(f"Promedio Innovación: {promedio_innovacion}")
+print(f"Promedio Presentación: {promedio_presentacion}")
